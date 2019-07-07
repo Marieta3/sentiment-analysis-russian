@@ -17,7 +17,7 @@ Sve što treba uraditi jeste otvoriti priloženi jupyter fajl u google colab okr
 - Ucitani tvitovi prolaze kroz predprocesiranje, koje uključuje tokenizaciju, izbacivanje karaktera koji nisu ruska ćirilica, stemovanje (svodjenje reči na osnovni oblik).
 - Pronađene reči se smeštaju u vokabular i pridružuje im se broj koji označava koliko puta se javljaju u podacima.
 - Uzima se 5000 najčešćih reči
-- Postoje dve metode pripremanja podataka za obučavanje:
+- Obrađene su dve metode pripremanja podataka za obučavanje:
     - Tvit se pretvara u vektor nula i jedinica, gde nula označava da se odgovarajuća reč ne nalazi u tvitu, a jedinica suprotno. Svi vektori su dužine 5000
     - Tvit se pretvara u vektor gde se svaka reč zamenjuje brojem koji je pridružen toj reči u vokabularu. Vektori su dužine broja reči u tvitu, pa je potrebno sve tvitove svesti na istu dužinu - dodati padding ili oduzeti višak reči
     
